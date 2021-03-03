@@ -9177,6 +9177,18 @@ img {
     z-index: 2;
   }
 
+  .form_final {
+      border: #fff 1px solid;
+      border-radius: 5px;
+      padding: 10px;
+
+  }
+
+  .form-tittle{
+      color: #ffd400;
+      font-size: 20px;
+  }
+
 /* ================================================== */
 
 

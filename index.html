@@ -265,10 +265,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 mb-md-30">
-                         <h2>DEJA TU TESTIMONIO</h2>
                             <form name="contactForm" id='contact_form' class="de_form form_underline" method="post" action='email.php'>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 form_final">
+                                        <div class="field-set text-center">
+                                            <p class="form-tittle">DEJA TU TESTIMONIO</p>
+                                        </div>
                                         <div class="field-set">
                                             <input type='text' name='nickname' id='nickname' class="form-control" placeholder="Seudonimo">
                                             <div class="line-fx"></div>
@@ -294,16 +296,24 @@
                                             <textarea name='message' id='message' class="form-control" placeholder="Testimonio"></textarea>
                                             <div class="line-fx"></div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-12">
+                                        <div class="field-set text-center">
                                         <div id='submit'>
                                             <input type='submit' id='send_message' value='Submit Form' class="btn btn-custom color-2">
                                         </div>
                                         <div id='mail_success' class='success'>Your message has been sent successfully.</div>
                                         <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+                                        </div>
                                     </div>
-
-
+                                    <div class="col-md-6">
+                                            <div>
+                                            <img src="images/logo-final.png" height="500px" width="500px"/>
+                                            </div>
+                                            <div class="social-icons">
+                                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                                            </div>
+                                    </div>
                                 </div>
                             </form>
                         </div>
