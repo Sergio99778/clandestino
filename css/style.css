@@ -200,7 +200,7 @@ header.header-bg {
 }
 
 header.transparent {
-    background: rgba(0, 0, 0, 0.0);
+    background:#ffd400;
 }
 
 header:not(.smaller):not(.header-mobile).header-light.transparent {
@@ -296,7 +296,7 @@ header.smaller #mainmenu ul ul {
 
 header.smaller {
     height: 70px;
-    background: rgba(21, 21, 21, .95);
+    background:#ffd400;
     position: fixed;
     top: 0px;
 	-webkit-box-shadow: 8px 8px 40px 0px rgba(0,0,0,0.1);
@@ -906,7 +906,7 @@ section {
     padding: 100px 0 100px 0;
     overflow: hidden;
     position: relative;
-	background:#ffffff;
+	background:#000000;
 }
 
 .section{
@@ -1569,9 +1569,9 @@ header.header-light .logo-2 {
     font-size: 14px;
     padding: 10px;
     margin-bottom: 20px;
-    color: #212121;
+    color: #000000;
     border: solid 1px #cccccc;
-    background: none;
+    background: #ffffff;
     height: auto;
     box-shadow: none;
     -moz-box-shadow: none;
