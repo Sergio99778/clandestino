@@ -9153,6 +9153,17 @@ img {
     z-index: 10;
 }
 
+/* video */
+
+video {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    top:50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+}
 
 /* ================================================== */
 
