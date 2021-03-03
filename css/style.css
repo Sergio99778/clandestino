@@ -200,7 +200,7 @@ header.header-bg {
 }
 
 header.transparent {
-    background:#ffd400;
+    background:transparent;
 }
 
 header:not(.smaller):not(.header-mobile).header-light.transparent {
