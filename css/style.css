@@ -2631,13 +2631,15 @@ h1.very-big{
 
   }
   #rellenar__input {
+    font-family: 'Special Elite', cursive;
     width: 100%;
     text-align: center;
-    color: gray;
     border: none;
     border-radius: 10px;
+    outline:none;
   }
   .rellenar__button {
+    outline:none;
     font-weight: bold;  
     position: relative;
     bottom: 25px;
@@ -2658,6 +2660,7 @@ h1.very-big{
       justify-content: flex-end;
   }
   #button_siguiente {
+    outline:none;
       font-size: medium;
       margin: 0; 
       padding: 0;
@@ -9269,7 +9272,7 @@ img {
         width: 23.95%;
     }
     #formulario__siguiente {
-        padding-right: 25%;
+        padding-right: 15%;
     }
 }
 

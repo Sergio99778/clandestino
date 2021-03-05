@@ -84,16 +84,22 @@
                             <div class="row">
                                 <div class="col-md-12 text-center">
                                     <div class="spacer-single d-block d-sm-none d-md-block"></div>
-                                    <p class="botonOn" id="botonOn">Bienvenid@.</p>
-                                    <form id="formulario__datos" name="rellenar" action="#" >
-                                        <p><input id="rellenar__input" placeholder="Inserte seudónimo" name="titulo" type="text"/> </p> 
-                                        <p><input class="rellenar__button" name="ver" type="button" value="ENTER"  onclick="FbotonOn()"/></p>
-                                    </form>
-                                    <div id="caja"></div>
-                                    <form action="" id="formulario__siguiente">
-                                    <button id="button_siguiente" type="button"  onclick="FbotonOn()">Enter</button><span class="button__enter"></span>
-                                    </form>
-                                    <div class="spacer-single"></div>
+                                    <div class="form-contanier">
+                                        <p class="botonOn" id="botonOn">Bienvenid@.</p>
+                                        <div class="first_form">
+                                            <form id="formulario__datos" name="rellenar" action="#" >
+                                                <p><input id="rellenar__input" name="titulo" type="text" placeholder="Inserte seudónimo"/> </p> 
+                                                <p><input class="rellenar__button" name="ver" type="button" value="ENTER"  onclick="FbotonOn()"/></p>
+                                            </form>
+                                        </div>
+                                        <div id="caja"></div>
+                                        <div class="second_form">
+                                            <form action="" id="formulario__siguiente">
+                                                <button id="button_siguiente" type="button"  onclick="FbotonOn()">Enter</button><span class="button__enter"></span>
+                                            </form>
+                                        </div>
+                                        <div class="spacer-single"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
