@@ -79,6 +79,7 @@
 /* ================================================== */
 
 html {
+    scroll-behavior: smooth;
     overflow: auto !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -2622,6 +2623,55 @@ h1.very-big{
 	letter-spacing:-5px;
 	line-height:120px;
 }
+.banner1 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    height: 250px;
+    margin-bottom:180px
+}
+.banner3 {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    margin-top: 150px;
+    height: 500px;
+    margin-bottom:180px
+}
+.banner3__mouse {
+    position: absolute;
+    z-index: 10000;
+    width: 22px;
+    height: 42px;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -12px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    -webkit-animation: intro 1s;
+    animation: intro 1s;
+    margin-bottom: 280px;
+}
+.banner5 {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    margin-top: 150px;
+    height: 500px;
+    margin-bottom:180px
+}
+.banner5__mouse {
+    position: absolute;
+    z-index: 10000;
+    width: 22px;
+    height: 42px;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -12px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    -webkit-animation: intro 1s;
+    animation: intro 1s;
+    margin-bottom: 200px;
+}
 #formulario__datos {
     display: none;
   }
@@ -4034,7 +4084,6 @@ span.teaser {
 }
 
 .social-icons i:hover {
-    background: #fff;
     border-color: #212121;
     color: #333;
 }
@@ -4045,25 +4094,23 @@ span.teaser {
     height: auto;
     margin: 0 15px 0 15px;
 }
-
-.social-icons.big i:hover {
-    background: none;
-}
-
 .fa-facebook {
-    background: #3e5a9b;
+    background-image: url('../images/icons/facebook.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
 .fa-twitter {
-    background: #55aded;
+    background-image: url('../images/icons/TW.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
-.fa-google-plus {
-    background: #df4f37;
-}
-
 .fa-linkedin {
-    background: #0075ad;
+    background-image: url('../images/icons/IG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .fa-rss {
@@ -9978,6 +10025,7 @@ img {
     .schedule-item .sc-pic {
         display: none;
     }
+
 }
 
 #ifrm {
