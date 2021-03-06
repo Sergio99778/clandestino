@@ -119,18 +119,12 @@
                     <div class="project-load"></div>
                 </div>
             </div>
+            
 
             <!-- banner2 begin-->
-            <section id="banner2" class="full-height relative no-top no-bottom" data-stellar-background-ratio=".2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 movie">
-                          <video muted autoplay loop><source src="images/movie1.mp4" type="Video/mp4"></video>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
+            <div class="container__video">
+                <video  loop autoplay muted class="video" src="./images/movie1.mp4"></video>
+            </div>
 
             <!-- banner2 close-->
 
@@ -144,7 +138,7 @@
                             <div class="row">
                                 <div class="col-md-12 text-center">
                                     <div class="spacer-single d-block d-sm-none d-md-block"></div>
-                                    <h2 class="very-big b">Así como yo, much@s ya empezaron a hablar. </h2>
+                                    <h2 id="banner3__text">Así como yo, much@s ya empezaron a hablar. </h2>
                                     <div class="spacer-single"></div>
                                 </div>
                             </div>
@@ -153,7 +147,7 @@
 
                 </div>
 
-                <a href="#banner4" class="scroll-to">
+                <a href="#third__item" class="scroll-to">
                     <span class="banner3__mouse">
 						 <span class="scroll"></span>
                     </span>
@@ -193,7 +187,7 @@
                         <!-- close gallery item -->
 
                         <!-- gallery item -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 mb30 sq-item wow">
+                        <div id="third__item" class="col-lg-4 col-md-6 col-sm-6 mb30 sq-item wow">
                             <div class="picframe wow">
                                 <div class="pf-click" data-value="#">
                                     <img src="images/testimony/2.png" class="wow" alt="" />
@@ -201,7 +195,11 @@
                             </div>
                         </div>
                         <!-- close gallery item -->
-
+                        <a href="#banner5" class="scroll-to">
+                            <span class="mouse">
+                                 <span class="scroll"></span>
+                            </span>
+                        </a>
                         <!-- gallery item -->
                         <div class="col-lg-4 col-md-6 col-sm-6 mb30 sq-item">
                             <div class="picframe wow">
@@ -235,7 +233,6 @@
                 </div>
             </section>
             <!-- banner4 close -->
-
             <!-- banner5 begin-->
             <section id="banner5" class="full-height relative owl-slide-wrapper text-light no-top no-bottom let-it-snow" data-bgimage="url(images/banner.png)" data-stellar-background-ratio=".2">
                 <div class="overlay-bg t50">
@@ -245,7 +242,7 @@
                             <div class="row">
                                 <div class="col-md-12 text-center">
                                     <div class="spacer-single d-block d-sm-none d-md-block"></div>
-                                    <h2 class="very-big b">Si sigues aquí, quizas sea porque tienes algo que decir.</h2>
+                                    <h2 id="banner5__text" class="very-big b">Si sigues aquí, quizas sea porque tienes algo que decir.</h2>
                                     <div class="spacer-single"></div>
                                 </div>
                             </div>
@@ -263,16 +260,9 @@
             <!-- banner5 close-->
 
             <!-- banner6 begin-->
-            <section id="banner6" class="full-height relative no-top no-bottom" data-stellar-background-ratio=".2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 movie">
-                          <video muted autoplay loop><source src="images/movie1.mp4" type="Video/mp4"></video>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
+            <div class="container__video">
+                <video loop autoplay muted class="video" src="./images/heraldo para web_1.mp4"></video>
+            </div>
 
             <!-- banner6 close-->
 
@@ -321,14 +311,14 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                            <div>
-                                            <img src="images/logo-final.png" height="500px" width="500px"/>
+                                        <div class="banner7--media__container">
+                                            <img id="" src="images/logo-final.png" height="500px" width="500px" padding-top="20px"/>
                                             </div>
                                             <div class="social-icons">
-                                            <a href="https://github.com/Sergio99778?tab=repositories"><i class="fa-facebook "></i></a>
+                                            <a href="#"><i class="fa-facebook"></i></a>
                                             <a href="#"><i class="fa-twitter "></i></a>
                                             <a href="#"><i class="fa-linkedin "></i></a>
-                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </form>
@@ -338,6 +328,7 @@
 
                 </div>
             </section>
+            
            <!--  banner7 close -->
 
 
@@ -345,7 +336,7 @@
     <!-- content close -->
 
     <!-- footer begin -->
-    <footer class="dark">
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 sm-mb10">

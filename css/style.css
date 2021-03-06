@@ -84,11 +84,12 @@ html {
     padding: 0 !important;
     margin: 0 !important;
     background: #fff;
+    font-family: 'Special Elite', cursive;
 }
 
 body {
     overflow: hidden;
-    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    font-family: 'Special Elite', cursive;
     font-size: 15px;
     font-weight: 500;
     background: #fff;
@@ -2624,10 +2625,10 @@ h1.very-big{
 	line-height:120px;
 }
 .banner1 {
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 100px;
     margin-top: 100px;
-    height: 250px;
+    height: 350px;
     margin-bottom:180px
 }
 .banner3 {
@@ -2636,6 +2637,13 @@ h1.very-big{
     margin-top: 150px;
     height: 500px;
     margin-bottom:180px
+}
+#banner3__text,
+#banner5__text {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: normal;
+    font-family:'Special Elite', cursive ;
 }
 .banner3__mouse {
     position: absolute;
@@ -2650,6 +2658,9 @@ h1.very-big{
     -webkit-animation: intro 1s;
     animation: intro 1s;
     margin-bottom: 280px;
+}
+#banner4 {
+    background-image: url('../images/background/nackgrpimd.png');
 }
 .banner5 {
     padding-top: 0px;
@@ -2671,6 +2682,17 @@ h1.very-big{
     -webkit-animation: intro 1s;
     animation: intro 1s;
     margin-bottom: 200px;
+}
+.banner--middle__mouse {
+    position: relative;
+    top: 200px;
+}
+#banner6 {
+    height: 500px;
+    width: 100%;
+}
+#banner7 {
+    background-image: url('../images/background/nackgrpimd.png');
 }
 #formulario__datos {
     display: none;
@@ -2719,8 +2741,8 @@ h1.very-big{
       color: gold;
   }
   .button__enter{
-      width: 40px;
-      height: 35px;
+      width: 25px;
+      height: 23px;
       background-image: url('../images/button_enter.png');
       background-repeat:no-repeat;
       background-position:center;
@@ -5558,7 +5580,6 @@ a.btn-fx:hover:before,
 
 /* ================================================== */
 
-video,
 object {
     display: inline-block;
     vertical-align: baseline;
@@ -5572,15 +5593,6 @@ object {
     height: 0;
     padding-bottom: 56.25%;
 }
-
-.video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 .de-video-container {
     top: 0%;
     left: 0%;
@@ -6814,6 +6826,11 @@ footer .widget_list li a {
 .inline-block {
     display: inline-block;
 }
+.banner7--media__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 
 /* ================================================== */
@@ -7580,7 +7597,6 @@ section.no-padding {
 .owl-arrow .next:before {
     font-family: "FontAwesome";
     content: '\f177';
-    color: #2;
     padding: 20px;
     font-size: 32px;
     display: block;
@@ -9274,6 +9290,17 @@ img {
     height: 100vh;
     overflow: hidden;
   }
+  .video {
+      width: 100%;
+      height: 100%;
+      background-color: #0f0f0f;
+      background-image: url('../images/background/nackgrpimd.png');
+  }
+  .container__video {
+      width: 100%;
+      height: 500px;
+      background-image: url('../images/background/nackgrpimd@2x.png');
+  }
   
   .movie video {
     min-width: 100%;
@@ -9320,7 +9347,7 @@ img {
     }
     #formulario__siguiente {
         padding-right: 15%;
-    }
+
 }
 
 
@@ -9335,6 +9362,7 @@ img {
 }
 
 @media only screen and (max-width: 992px) {
+
     .text-center-sm {
         text-align: center;
     }
@@ -9707,9 +9735,6 @@ img {
     .de_tab.tab_steps .de_nav li .v-border {
         border: none;
     }
-    .hidden-phone {
-        display: none;
-    }
     .grid_gallery .item {
         width: 100%;
     }
@@ -9821,6 +9846,7 @@ img {
 	h1.big span.underline{
 		height:3px;
 	}
+
 }
 
 
@@ -9984,6 +10010,7 @@ img {
 	.xs-hide{
 		display:none;
 	}
+
 }
 
 
@@ -10015,6 +10042,7 @@ img {
         margin: 0;
         padding: 0;
     }
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -10025,6 +10053,8 @@ img {
     .schedule-item .sc-pic {
         display: none;
     }
+
+
 
 }
 
