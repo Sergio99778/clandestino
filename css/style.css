@@ -2659,6 +2659,20 @@ h1.very-big{
     animation: intro 1s;
     margin-bottom: 280px;
 }
+.banner2__mouse {
+    position: absolute;
+    z-index: 10000;
+    width: 22px;
+    height: 42px;
+    bottom: 40px;
+    left: 50%;
+    top: 0%;
+    margin-left: -12px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    -webkit-animation: intro 1s;
+    animation: intro 1s;
+}
 #banner4 {
     background-image: url('../images/background/nackgrpimd.png');
 }
