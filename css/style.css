@@ -9345,7 +9345,7 @@ img {
 
 /* ================================================== */
 
-@media(min-width:980px) and (max-width: 1199px) {
+@media(min-width:980px) and (max-width: 1300px) {
     header #mainmenu a {
         padding-left: 5px;
         padding-right: 5px;
@@ -9361,6 +9361,10 @@ img {
     }
     #formulario__siguiente {
         padding-right: 15%;
+    }
+    .form-contanier {
+        margin-top: 125px;
+    }
 
 }
 
