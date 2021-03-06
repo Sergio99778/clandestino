@@ -2638,7 +2638,8 @@ h1.very-big{
     height: 500px;
     margin-bottom:180px
 }
-#banner3__text {
+#banner3__text,
+#banner5__text {
     font-size: 32px;
     font-weight: 600;
     letter-spacing: normal;
